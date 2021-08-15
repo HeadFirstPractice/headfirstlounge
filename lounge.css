@@ -7,11 +7,16 @@ h1, h2{
 }
 
 h1{
-  text-decoration: underline 1px solid black;
+  text-decoration: underline black;
+  text-decoration-thickness: 2px;
 }
 
 p {
   color: maroon;
+}
+
+p.blueberry{
+  color:purple;
 }
 
 p.greentea{
@@ -20,8 +25,4 @@ p.greentea{
 
 p.raspberry{
   color:blue;
-}
-
-p.blueberry{
-  color:purple;
 }
